@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/9c56854474.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Blog</title>
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <li class="fa fa-times" onclick="hideMenu()"></li>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <li class="fa fa-bars" onclick="showMenu()"></li>
+        </nav>
+        <h1>Our Certifications and Online Program</h1>
+    </section>
+
+    <!-- Blog page content -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>Our Certifications and Online Program</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam aliquid deserunt quasi ipsa. Eius asperiores eaque temporibus, ipsam nobis eum optio doloribus doloremque fugit provident consectetur earum perferendis molestias dignissimos libero ipsum harum enim at dicta. Aperiam, distinctio? Dignissimos, numquam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, eius reiciendis saepe nihil hic impedit magnam maiores! Distinctio qui quaerat adipisci dicta laborum autem temporibus ab provident. Veniam ut provident delectus perferendis in harum corporis modi dignissimos incidunt. Perspiciatis, laborum ullam! Reiciendis natus dolores, qui voluptates, nam molestiae eveniet corporis id sint temporibus maxime provident praesentium sunt, aut distinctio facere!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ipsa iure eveniet facere consectetur, similique eos obcaecati consequatur aliquam mollitia impedit itaque! Adipisci, et? Distinctio amet quis natus esse, magni veniam, nihil expedita modi nostrum sequi atque laudantium molestias iusto maxime! Eum doloribus deserunt est illum totam neque adipisci praesentium ipsa aliquam nostrum quibusdam delectus itaque atque eligendi hic quis iure saepe soluta suscipit illo, quasi eaque commodi voluptatem! Itaque in quisquam consectetur incidunt, architecto saepe accusantium neque voluptates perferendis iusto cumque, delectus nihil explicabo quibusdam? Cupiditate ullam inventore nam delectus quia voluptates assumenda, deleniti illo. Aut fugit ut natus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum totam impedit rem incidunt omnis magnam praesentium culpa doloremque exercitationem nemo.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <input class="post-btn" type="button" value="Post Comment">
+                    </form>
+                </div>
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div><div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div><div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div><div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div><div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div><div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Enim, quis vero? Debitis dolore assumenda dolorem odit illo eligendi quod architecto?</p>
+        
+        <div class="icons">
+            <li class="fa fa-facebook"></li>
+            <li class="fa fa-twitter"></li>
+            <li class="fa fa-instagram"></li>
+            <li class="fa fa-linkedin"></li>
+        </div>
+        <p>Made with <li class="fa fa-heart-o"></li> by Easy Tutorials </p>
+    </section>
+
+
+</body>
+<!-- JavaScript for toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</html>
