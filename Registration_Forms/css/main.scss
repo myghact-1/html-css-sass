@@ -1,0 +1,185 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    width: 80%;
+    margin: auto;
+
+    h1 {
+        font-family: Verdana;
+        font-size: 3em;
+        font-weight: 900;
+        text-align: center;
+        background-color: rgb(71, 198, 248);
+        margin: 20px 0;
+        display: block;
+        padding: 16px 0;
+    }
+
+    .row {
+        display: flex;
+        width: 100%;
+        margin: auto;
+
+        .header-col {
+            flex-basis: 40%;
+            margin-top: 30px 0;
+            padding: 5%;
+
+            img {
+                width: 100%;
+                height: 400px;
+            }
+
+            h4 {
+                font-size: 1.2em;
+                text-align: left;
+            }
+            
+            address {
+                margin: 20px;
+                text-align: left;
+            }
+            p {
+                font-family: Verdana;
+                font-size: 1em;
+                text-align: left;
+            }
+        }
+    }
+}
+
+// Form section
+
+.my-form {
+    width: 80%;
+    margin: auto;
+    padding: 2% 0;
+    background-color: rgb(177, 226, 255);
+
+    span {
+        font-family: Cambria;
+        font-size: 1.3em;
+        // padding-left: 50px;
+    }
+
+    div {
+        margin: 30px 5%;
+        position: relative;
+
+        input {
+            height: 2em;
+            width: 300px;
+            display: inline-block;
+            margin: 0 20px;
+            border: none;
+            padding-left: 1em;
+            border-radius: 10px;
+
+            &:focus {
+                outline: none;
+                background-color: rgb(255, 253, 148);
+            }
+        }
+
+
+
+
+        .firstname {
+            position: relative;
+            left: 15%;
+        }
+        .lastname {
+            position: relative;
+            left: 15%;
+        }
+        .age {
+            position: relative;
+            left: 17%;
+        }
+        .radio-btn-male {
+            width: 20px;
+            position: relative;
+            left: 15%;
+        }
+        .male-label {
+            position: absolute;
+            left: 29%;
+            top: 20%;
+            display: inline-block;
+            padding-right: 30px;
+        }
+
+        .radio-btn-female {
+            width: 20px;
+            position: relative;
+            left: 20%;
+            
+        }
+        .female-label {
+            position: absolute;
+            left: 41%;
+            top: 20%;
+        }
+        .phone-number {
+            display: inline;
+            padding-left: 8px;
+
+            .ccode {
+                width: 60px;
+            }
+        }
+
+        .email {
+            display: inline-block;
+            margin-left: 154px;
+        }
+
+        .street-address {
+            width: 650px;
+            margin-left: 130px;
+            margin-bottom: 20px;
+        }
+
+        .address-form {
+            margin-left: 205px;
+            margin-bottom: 20px;
+            width: 305px;
+        }
+
+        .occupation {
+            margin-left: 100px;
+            width: 650px;
+        }
+        
+        .company {
+            margin-left: 60px;
+            width: 650px;
+        }
+        
+    }
+
+    .submit-btn {
+        display: block;
+        font-family: Verdana;
+        font-size: 1.2em;
+        margin: 40px auto;
+        padding: 10px 35px;
+        border: none;
+        box-shadow: 2px 2px 10px rgb(109, 109, 109);
+        transition: 0.5s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #f3f444;
+            transform: translateY(-3px);
+        }
+    }
+
+}

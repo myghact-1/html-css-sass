@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 80%;
+  margin: auto;
+}
+
+.header h1 {
+  font-family: Verdana;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+  background-color: #47c6f8;
+  margin: 20px 0;
+  display: block;
+  padding: 16px 0;
+}
+
+.header .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.header .row .header-col {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  margin-top: 30px 0;
+  padding: 5%;
+}
+
+.header .row .header-col img {
+  width: 100%;
+  height: 400px;
+}
+
+.header .row .header-col h4 {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.header .row .header-col address {
+  margin: 20px;
+  text-align: left;
+}
+
+.header .row .header-col p {
+  font-family: Verdana;
+  font-size: 1em;
+  text-align: left;
+}
+
+.my-form {
+  width: 80%;
+  margin: auto;
+  padding: 2% 0;
+  background-color: #b1e2ff;
+}
+
+.my-form span {
+  font-family: Cambria;
+  font-size: 1.3em;
+}
+
+.my-form div {
+  margin: 30px 5%;
+  position: relative;
+}
+
+.my-form div input {
+  height: 2em;
+  width: 300px;
+  display: inline-block;
+  margin: 0 20px;
+  border: none;
+  padding-left: 1em;
+  border-radius: 10px;
+}
+
+.my-form div input:focus {
+  outline: none;
+  background-color: #fffd94;
+}
+
+.my-form div .firstname {
+  position: relative;
+  left: 15%;
+}
+
+.my-form div .lastname {
+  position: relative;
+  left: 15%;
+}
+
+.my-form div .age {
+  position: relative;
+  left: 17%;
+}
+
+.my-form div .radio-btn-male {
+  width: 20px;
+  position: relative;
+  left: 15%;
+}
+
+.my-form div .male-label {
+  position: absolute;
+  left: 29%;
+  top: 20%;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.my-form div .radio-btn-female {
+  width: 20px;
+  position: relative;
+  left: 20%;
+}
+
+.my-form div .female-label {
+  position: absolute;
+  left: 41%;
+  top: 20%;
+}
+
+.my-form div .phone-number {
+  display: inline;
+  padding-left: 8px;
+}
+
+.my-form div .phone-number .ccode {
+  width: 60px;
+}
+
+.my-form div .email {
+  display: inline-block;
+  margin-left: 154px;
+}
+
+.my-form div .street-address {
+  width: 650px;
+  margin-left: 130px;
+  margin-bottom: 20px;
+}
+
+.my-form div .address-form {
+  margin-left: 205px;
+  margin-bottom: 20px;
+  width: 305px;
+}
+
+.my-form div .occupation {
+  margin-left: 100px;
+  width: 650px;
+}
+
+.my-form div .company {
+  margin-left: 60px;
+  width: 650px;
+}
+
+.my-form .submit-btn {
+  display: block;
+  font-family: Verdana;
+  font-size: 1.2em;
+  margin: 40px auto;
+  padding: 10px 35px;
+  border: none;
+  -webkit-box-shadow: 2px 2px 10px #6d6d6d;
+          box-shadow: 2px 2px 10px #6d6d6d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.my-form .submit-btn:hover {
+  background-color: #f3f444;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+/*# sourceMappingURL=main.css.map */

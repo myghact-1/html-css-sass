@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>First Registration Form</title>
+
+</head>
+<body>
+    <!-- header -->
+    <section class="header">
+        <h1>Virtual Event Registration Form</h1>
+        <div class="row">
+            <div class="header-col">
+                <img src="images/speaker.png" alt="Photo on a person">
+            </div>
+            <div class="header-col">
+                <h4>About this Virtual Event</h4>
+                <address>
+                    Topic: Working from Home Success
+                    Date: <time datetime="2020-05-05">May 05, 2020</time> 
+                    Time: 9:00 AM - 1:00 PM
+                </address>
+                <p>
+                    In this virtual event, we'll talk about success stories of work at home people. We'll discuss how did they get started, what are the needed tools, how much information or knowledge required to start, and many more.
+                </p>
+            </div>
+        </div>
+        <hr>
+    </section>
+    
+    <section>
+        <form action="" class="my-form">
+            <div class="name">
+                <span>Name</span>
+                <input class="firstname" type="text" placeholder="First Name">
+                <input class="lastname" type="text" placeholder="Last Name">
+            </div>
+            <div>
+                <span>Age</span> <input class="age" type="number" min="18" placeholder="minimum 18">
+            </div>
+            <div>
+                <span>Gender</span> 
+                <input type="radio" id="male" name="gender" class="radio-btn-male">
+                <label class="male-label" for="male">Male</label>
+                <input type="radio" id="female" name="gender" class="radio-btn-female">
+                <label class="female-label" for="female">Female</label>
+            </div>
+            <div class="form-phone">
+                <span>Phone Number</span>
+                <div class="phone-number">
+                    <input type="text" placeholder="+1" class="ccode"> - 
+                    <input type="tel" placeholder="23452768">
+                </div>
+                
+            </div>
+            <div>
+                <span>Email</span>
+                <input class="email" type="email" placeholder="example@example.com">
+            </div>
+            <div>
+                <span>Address</span>
+                <input class="street-address" type="text" placeholder="Street Address" required>
+                <input class="address-form" type="text" placeholder="Street Address">
+                <input type="text" placeholder="city" required>
+                <input class="address-form" type="text" placeholder="State/Province" required>
+                <input type="text" placeholder="Postal / Zip Code" required>
+            </div>
+            <div>
+                <span>Occupation</span>
+                <input class="occupation" type="text" placeholder="What you do?">
+            </div>
+            <div>
+                <span>Company Name</span>
+                <input class="company" type="text" placeholder="Company name">
+            </div>
+            
+            <input class="submit-btn" type="submit" value="Submit">
+        </form>
+    </section>
+
+
+</body>
+</html>
